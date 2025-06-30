@@ -13,8 +13,6 @@ func main() {
 	dur := flag.Duration("time", time.Second, "时间差")
 	// 必须在所有测试运行前解析flag
 	flag.Parse()
-	fmt.Println("=== TestFlag ===")
-
 	// 打印解析后的flag值
 	fmt.Printf("isTrue: %v\n", *isTrue)
 	fmt.Printf("name: %s\n", *name)
