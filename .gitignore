@@ -1,0 +1,19 @@
+# 创建.gitignore文件并添加以下内容
+cat <<EOF > .gitignore
+# 忽略所有yaml配置文件
+*.yaml
+*.yml
+settings/config.yaml
+
+# 忽略二进制文件
+*.exe
+*.log
+
+# IDE文件
+.idea/
+.vscode/
+
+# 上传目录
+uploads/
+uploadsFiles/
+EOF
