@@ -8,11 +8,12 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-	"web_app/dao/mysql"
-	"web_app/dao/redis"
-	"web_app/logger"
-	"web_app/router"
-	"web_app/settings"
+
+	"github.com/staticlock/web_app/dao/mysql"
+	"github.com/staticlock/web_app/dao/redis"
+	"github.com/staticlock/web_app/logger"
+	"github.com/staticlock/web_app/router"
+	"github.com/staticlock/web_app/settings"
 
 	"go.uber.org/zap"
 )

@@ -1,8 +1,6 @@
-module web_app
+module github.com/staticlock/web_app
 
 go 1.23.0
-
-toolchain go1.23.10
 
 require (
 	github.com/fsnotify/fsnotify v1.8.0
